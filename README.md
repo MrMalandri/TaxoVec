@@ -14,7 +14,7 @@
 
 ## Description
 
-TaxoSS is a semantic similarity library for Python which implements the state-of-the-art semantic similarity metrics like Resnik, JCN, and HSS.
+TaxoSS is a fully-fledged Python package implementing state-of-the-art semantic similarity metrics like Resnik, JCN, and HSS.
 
 ## Requirements
 
@@ -44,7 +44,7 @@ semantic_similarity('brother', 'sister', 'hss')
 3.353513521371089
 ```
 
-The function `semantic_similarity(word1, word2, kind, ic)` has these options for the argument `kind`:
+The function `semantic_similarity(word1, word2, kind, ic)` has several options for the argument `kind`:
 
 * *hss* -> HSS (_default_)
 * *wup* -> WUP
